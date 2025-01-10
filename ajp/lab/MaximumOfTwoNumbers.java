@@ -10,15 +10,17 @@ public class MaximumOfTwoNumbers
 {
 	public static void main(String[] args) 
 	{
-		Scanner inpuit =new Scanner(System.in);
+		Scanner input =new Scanner(System.in);
 		System.out.print("Enter any two numbers: ");
-		int num1=inpuit.nextInt();
-		int num2=inpuit.nextInt();
+		int num1=input.nextInt();
+		int num2=input.nextInt();
+		
+		//check the maximum here.
 		boolean flag= (num1>num2) ? true: false;
 		if(flag)
 			System.out.println(num1+" is maximum");
 		else
 			System.out.println(num2+" is maximum");
-
+		input.close();
 	}
 }

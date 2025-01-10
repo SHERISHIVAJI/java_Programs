@@ -53,6 +53,7 @@ public class Bank
 		System.out.print("Enter amount to diposit: ");
 		double amountToDeposit=input.nextDouble();
 		bank.deposit(amountToDeposit);
+		input.close();
 	}
 }
 
