@@ -1,5 +1,12 @@
 package ajp.lab6;
 
+/*
+Write code to determine if the string is a palindrome.
+
+	Input String : Madam 
+
+	Output : Madam is a Palindrome
+ */
 import java.util.Scanner;
 
 public class StringIsPalindromeOrNot {
